@@ -1,11 +1,11 @@
-### 📄 Estudo de Manipulação de Arquivos XML com Python
+## 📄 Estudo de Manipulação de Arquivos XML com Python
   O XML utilizado contém dados fictícios, sendo apenas uma estrutura de exemplo para fins educacionais e de portfólio.
 
-🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
   - Python 3
   - Biblioteca lxml
 
-🧪 Funcionalidades Estudadas
+### 🧪 Funcionalidades Estudadas
   - Leitura de arquivo XML
   - Navegação entre nós (elements)
   - Busca por tags específicas
