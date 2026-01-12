@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root model="FAKENET_SYSTEM" ossversion="9.9" vendor="ACME_TECH">
+    <table active="TRUE" id="FAKE_NETWORK_TABLE" ossId="FAKE_NETWORK_TABLE" partitionof="FAKE_NETWORK_TABLE" pdfOnly="False" tableName="FAKE_NETWORK_TABLE" tech="SIMULATION" udn="fakeNetworkTable">
+        <column bdcolname="TECH_TYPE" bdtype="VARCHAR2(26)" dbn0type="ID" id="TECH_TYPE" udn="techType"/>
+        <column bdcolname="STATE_CODE" bdtype="VARCHAR2(26)" dbn0type="PK" id="STATE_CODE" udn="stateCode"/>
+        <column bdcolname="NODE_NUMBER" bdtype="NUMBER" dbn0type="ID" id="NODE_NUMBER" udn="nodeNumber"/>
+        <column bdcolname="CITY_CODE" bdtype="NUMBER" dbn0type="ID" id="CITY_CODE" udn="cityCode"/>
+        <column bdcolname="CITY_NAME" bdtype="VARCHAR2(255)" dbn0type="ID" id="CITY_NAME" udn="cityName"/>
+        <column bdcolname="DISTRICT_NAME" bdtype="VARCHAR2(255)" dbn0type="ID" id="DISTRICT_NAME" udn="districtName"/>
+        <column bdcolname="CORE_UNIT" bdtype="VARCHAR2(26)" dbn0type="ID" id="CORE_UNIT" udn="coreUnit"/>
+        <column bdcolname="CTRL_SYSTEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="CTRL_SYSTEM" udn="controlSystem"/>
+        <column bdcolname="RADIO_NODE" bdtype="VARCHAR2(26)" dbn0type="ID" id="RADIO_NODE" udn="radioNode"/>
+        <column bdcolname="GATEWAY_UNIT" bdtype="VARCHAR2(26)" dbn0type="ID" id="GATEWAY_UNIT" udn="gatewayUnit"/>
+        <column bdcolname="EQUIP_VENDOR" bdtype="VARCHAR2(255)" dbn0type="ID" id="EQUIP_VENDOR" udn="equipVendor"/>
+        <column bdcolname="CTRL_VENDOR" bdtype="VARCHAR2(255)" dbn0type="ID" id="CTRL_VENDOR" udn="ctrlVendor"/>
+        <column bdcolname="MASTER_REF_ID" bdtype="VARCHAR2(26)" dbn0type="ID" id="MASTER_REF_ID" udn="masterRefId"/>
+        <column bdcolname="SITE_CODE" bdtype="VARCHAR2(26)" dbn0type="PK" id="SITE_CODE" udn="siteCode"/>
+        <column bdcolname="SITE_DESC" bdtype="VARCHAR2(255)" dbn0type="ID" id="SITE_DESC" udn="siteDescription"/>
+        <column bdcolname="PHYSICAL_NODE" bdtype="VARCHAR2(26)" dbn0type="PK" id="PHYSICAL_NODE" udn="physicalNode"/>
+        <column bdcolname="PHYSICAL_NODE_REF" bdtype="VARCHAR2(26)" dbn0type="PK" id="PHYSICAL_NODE_REF" udn="physicalNodeRef"/>
+        <column bdcolname="CELL_ID" bdtype="VARCHAR2(26)" dbn0type="PK" id="CELL_ID" udn="cellId"/>
+        <column bdcolname="CELL_REF" bdtype="VARCHAR2(26)" dbn0type="PK" id="CELL_REF" udn="cellRef"/>
+        <column bdcolname="FREQ_BAND" bdtype="VARCHAR2(26)" dbn0type="ID" id="FREQ_BAND" udn="freqBand"/>
+        <column bdcolname="PHYSICAL_SECTOR" bdtype="NUMBER" dbn0type="ID" id="PHYSICAL_SECTOR" udn="physicalSector"/>
+        <column bdcolname="LOGICAL_SECTOR" bdtype="NUMBER" dbn0type="ID" id="LOGICAL_SECTOR" udn="logicalSector"/>
+        <column bdcolname="NODE_STATUS" bdtype="VARCHAR2(26)" dbn0type="ID" id="NODE_STATUS" udn="nodeStatus"/>
+        <column bdcolname="BAND_STATUS" bdtype="VARCHAR2(26)" dbn0type="ID" id="BAND_STATUS" udn="bandStatus"/>
+        <column bdcolname="CARRIER_STATUS" bdtype="VARCHAR2(26)" dbn0type="ID" id="CARRIER_STATUS" udn="carrierStatus"/>
+        <column bdcolname="CTRL_STATUS" bdtype="VARCHAR2(26)" dbn0type="ID" id="CTRL_STATUS" udn="ctrlStatus"/>
+        <column bdcolname="COVERAGE_TYPE" bdtype="VARCHAR2(26)" dbn0type="ID" id="COVERAGE_TYPE" udn="coverageType"/>
+        <column bdcolname="NODE_TYPE" bdtype="VARCHAR2(26)" dbn0type="ID" id="NODE_TYPE" udn="nodeType"/>
+        <column bdcolname="PRIORITY_SITE" bdtype="VARCHAR2(26)" dbn0type="ID" id="PRIORITY_SITE" udn="prioritySite"/>
+        <column bdcolname="RF_APPROVAL" bdtype="VARCHAR2(26)" dbn0type="ID" id="RF_APPROVAL" udn="rfApproval"/>
+        <column bdcolname="OEM_REJECTED" bdtype="VARCHAR2(26)" dbn0type="ID" id="OEM_REJECTED" udn="oemRejected"/>
+        <column bdcolname="RF_REJECTED" bdtype="VARCHAR2(26)" dbn0type="ID" id="RF_REJECTED" udn="rfRejected"/>
+        <column bdcolname="LATITUDE_STR" bdtype="VARCHAR2(26)" dbn0type="ID" id="LATITUDE_STR" udn="latitudeStr"/>
+        <column bdcolname="LONGITUDE_STR" bdtype="VARCHAR2(26)" dbn0type="ID" id="LONGITUDE_STR" udn="longitudeStr"/>
+        <column bdcolname="LATITUDE_VAL" bdtype="NUMBER" dbn0type="ID" id="LATITUDE_VAL" udn="latitudeVal"/>
+        <column bdcolname="LONGITUDE_VAL" bdtype="NUMBER" dbn0type="ID" id="LONGITUDE_VAL" udn="longitudeVal"/>
+        <column bdcolname="AREA_CODE" bdtype="NUMBER" dbn0type="ID" id="AREA_CODE" udn="areaCode"/>
+        <column bdcolname="TRACK_CODE" bdtype="NUMBER" dbn0type="ID" id="TRACK_CODE" udn="trackCode"/>
+        <column bdcolname="GLOBAL_CELL_ID" bdtype="VARCHAR2(26)" dbn0type="PK" id="GLOBAL_CELL_ID" udn="globalCellId"/>
+        <column bdcolname="TRACK_REF" bdtype="NUMBER" dbn0type="ID" id="TRACK_REF" udn="trackRef"/>
+        <column bdcolname="NODE_MODEL" bdtype="VARCHAR2(255)" dbn0type="ID" id="NODE_MODEL" udn="nodeModel"/>
+        <column bdcolname="CTRL_MODEL" bdtype="VARCHAR2(26)" dbn0type="ID" id="CTRL_MODEL" udn="ctrlModel"/>
+        <column bdcolname="OWNER_COMPANY" bdtype="VARCHAR2(26)" dbn0type="ID" id="OWNER_COMPANY" udn="ownerCompany"/>
+        <column bdcolname="CONTRACT_REF" bdtype="VARCHAR2(255)" dbn0type="ID" id="CONTRACT_REF" udn="contractRef"/>
+        <column bdcolname="LEGACY_CARRIER" bdtype="VARCHAR2(26)" dbn0type="ID" id="LEGACY_CARRIER" udn="legacyCarrier"/>
+        <column bdcolname="MOU_CARRIER" bdtype="VARCHAR2(26)" dbn0type="ID" id="MOU_CARRIER" udn="mouCarrier"/>
+        <column bdcolname="LEGACY_BAND" bdtype="VARCHAR2(26)" dbn0type="ID" id="LEGACY_BAND" udn="legacyBand"/>
+        <column bdcolname="MOU_BAND" bdtype="VARCHAR2(26)" dbn0type="ID" id="MOU_BAND" udn="mouBand"/>
+        <column bdcolname="ROAMING_FLAG" bdtype="VARCHAR2(26)" dbn0type="ID" id="ROAMING_FLAG" udn="roamingFlag"/>
+        <column bdcolname="ROAMING_PARTNER" bdtype="VARCHAR2(26)" dbn0type="ID" id="ROAMING_PARTNER" udn="roamingPartner"/>
+        <column bdcolname="MIMO_SUPPORT" bdtype="VARCHAR2(26)" dbn0type="ID" id="MIMO_SUPPORT" udn="mimoSupport"/>
+        <column bdcolname="IOT_SUPPORT" bdtype="VARCHAR2(26)" dbn0type="ID" id="IOT_SUPPORT" udn="iotSupport"/>
+        <column bdcolname="DSS_SUPPORT" bdtype="VARCHAR2(26)" dbn0type="ID" id="DSS_SUPPORT" udn="dssSupport"/>
+        <column bdcolname="SA_MODE" bdtype="VARCHAR2(26)" dbn0type="ID" id="SA_MODE" udn="saMode"/>
+        <column bdcolname="NSA_MODE" bdtype="VARCHAR2(26)" dbn0type="ID" id="NSA_MODE" udn="nsaMode"/>
+        <column bdcolname="COLLECT_TIMESTAMP" bdtype="TIMESTAMP(3)" dbn0type="ID" id="COLLECT_TIMESTAMP" udn="collectTimestamp"/>        <column bdcolname="NOVA_COLUNA" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA" udn="novaColuna"/>
+        <column bdcolname="NOVA_COLUNA" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA" udn="novaColuna"/></table>
+</root>
